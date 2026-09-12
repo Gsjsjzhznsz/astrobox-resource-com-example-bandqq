@@ -1,0 +1,58 @@
+{
+  "item": {
+    "id": "com.example.bandqq",
+    "restype": "quick_app",
+    "name": "BandQQ —— 小米手环 9/10/11 QQ 消息助手",
+    "description": "厌倦了开会/上课时掏手机回 QQ？把 QQ 戴在手腕上。\n\nBandQQ 是一套开源的小米手环 QQ 方案（手环快应用 + 安卓同步器），通过小米互联蓝牙通道把 QQ 消息实时同步到手环，直接在手腕上完成查看和回复。\n\n**能做什么**\n\n- 实时收 QQ 消息：私聊 / 群聊，未读角标 + 震动提醒\n- 手环直接回复：快捷回复一键发送 / 手环键盘打字\n- 被群友 @ 时金色「@我」徽标 + 高亮气泡 + 长震，一眼锁定\n- 有人拍一拍你：紫色「XX 拍了拍你」特效胶囊 + 长震（私聊群聊都支持）\n- 会话免打扰：长按会话开启，红点变灰、不自动拉起，重要消息不被打扰也不漏\n- 智能拉起：默认只有 @我 / 拍一拍我才自动拉起快应用，普通消息安安静静\n- 翻历史消息、收图、撤回同步、表情渲染\n\n**怎么用**\n\n手环装快应用（RPK），手机装同步器（APK），同步器连你的 OneBot v11 协议端（NapCat / Lagrange / LLOneBot 均可）。没有服务器？内置 DevTools 开发者工具可以模拟协议端，装上就能体验全流程（含拍一拍 / @我 一键测试）。\n\n**小彩蛋**：手环端 设置 → 关于 → 连点版本号 7 次，注入演示会话，无手机也能体验完整界面。\n\n**适配**：小米手环 9（192×490）/ 手环 10、11（212×520）。图均为手环 11 官方 Vela 虚拟机实拍。\n\n- GitHub：https://github.com/Gsjsjzhznsz/BandQQ\n- 作者：一秋（QQ 2308534727）\n- 开源协议：MIT，求 Star 求反馈",
+    "preview": [
+      "media/1000000695.png",
+      "media/1000000691.png",
+      "media/1000000692.png",
+      "media/1000000693.png",
+      "media/1000000694.png"
+    ],
+    "icon": "media/1000000700.png",
+    "cover": "media/1000000703.jpg",
+    "author": [
+      {
+        "name": "bandbbs_2354733",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "仓库",
+      "url": "https://github.com/Gsjsjzhznsz/BandQQ",
+      "icon": "GithubLogo"
+    }
+  ],
+  "downloads": {
+    "xmb10": {
+      "version": "2.9.1",
+      "file_name": "downloads/bandqq-watch-release-2.9.1.rpk",
+      "versionCode": 39
+    },
+    "xmb10nfc": {
+      "version": "2.9.1",
+      "file_name": "downloads/bandqq-watch-release-2.9.1.rpk",
+      "versionCode": 39
+    },
+    "xmb11": {
+      "version": "2.9.1",
+      "file_name": "downloads/bandqq-watch-release-2.9.1.rpk",
+      "versionCode": 39
+    },
+    "xmb11nfc": {
+      "version": "2.9.1",
+      "file_name": "downloads/bandqq-watch-release-2.9.1.rpk",
+      "versionCode": 39
+    },
+    "xmb9": {
+      "version": "2.9.1",
+      "file_name": "downloads/bandqq-watch-release-2.9.1.rpk",
+      "versionCode": 39
+    }
+  },
+  "ext": {}
+}
