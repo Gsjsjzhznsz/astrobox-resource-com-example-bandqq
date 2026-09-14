@@ -1,9 +1,9 @@
 {
   "item": {
-    "id": "com.example.bandqq",
+    "id": "io.github.gsjsjzhznsz.bandqq",
     "restype": "quick_app",
     "name": "BandQQ",
-    "description": "厌倦了开会/上课时掏手机回 QQ？把 QQ 戴在手腕上。\n\n\n\nBandQQ 是一套开源的小米手环 QQ 方案（手环快应用 + 安卓同步器），通过小米互联蓝牙通道把 QQ 消息实时同步到手环，直接在手腕上完成查看和回复。\n\n\n\n能做什么\n\n\n\n实时收 QQ 消息：私聊 / 群聊，未读角标 + 震动提醒\n手环直接回复：快捷回复一键发送 / 手环键盘打字\n被群友 @ 时金色「@我」徽标 + 高亮气泡 + 长震，一眼锁定\n有人拍一拍你：紫色「XX 拍了拍你」特效胶囊 + 长震（私聊群聊都支持）\n会话免打扰：长按会话开启，红点变灰、不自动拉起，重要消息不被打扰也不漏\n智能拉起：默认只有 @我 / 拍一拍我才自动拉起快应用，普通消息安安静静\n翻历史消息、收图、撤回同步、表情渲染\n\n\n怎么用\n\n​\n\nQQ交流群 885186458\n\n\n\n手环装快应用（RPK），手机装同步器（APK），同步器连你的 OneBot v11 协议端（NapCat / Lagrange / LLOneBot 均可）。没有服务器？内置 DevTools 开发者工具可以模拟协议端，装上就能体验全流程（含拍一拍 / @我 一键测试）。\n\n\n\n小彩蛋：手环端 设置 → 关于 → 连点版本号 7 次，注入演示会话，无手机也能体验完整界面。\n\n\n\nGitHub：https://github.com/Gsjsjzhznsz/BandQQ\n作者：一秋（QQ交流群 885186458）\n开源协议：MIT，求 Star 求反馈",
+    "description": "厌倦了开会/上课时掏手机回 QQ？把 QQ 戴在手腕上。\n\n\n\nBandQQ 是一套开源的小米手环 QQ 方案（手环快应用 + 安卓同步器），通过小米互联蓝牙通道把 QQ 消息实时同步到手环，直接在手腕上完成查看和回复。\n\n\n\n能做什么\n\n\n\n实时收 QQ 消息：私聊 / 群聊，未读角标 + 震动提醒\n手环直接回复：快捷回复一键发送 / 手环键盘打字\n被群友 @ 时金色「@我」徽标 + 高亮气泡 + 长震，一眼锁定\n有人拍一拍你：紫色「XX 拍了拍你」特效胶囊 + 长震（私聊群聊都支持）\n会话免打扰：长按会话开启，红点变灰、不自动拉起，重要消息不被打扰也不漏\n智能拉起：默认只有 @我 / 拍一拍我才自动拉起快应用，普通消息安安静静\n翻历史消息、收图、撤回同步、表情渲染\n\n\n怎么用\n\n​\n\nQQ交流群 885186458\n\n\n\n手环装快应用（RPK），手机装同步器（APK），同步器连你的 OneBot v11 协议端（NapCat / Lagrange / LLOneBot 均可）。没有服务器？内置 DevTools 开发者工具可以模拟协议端，装上就能体验全流程（含拍一拍 / @我 一键测试）。\n\n\n\n小彩蛋：手环端 设置 → 关于 → 连点版本号 7 次，注入演示会话，无手机也能体验完整界面。\n\n\n\nGitHub：\n作者：一秋（QQ交流群 885186458）\n开源协议：MIT，求 Star 求反馈",
     "preview": [
       "media/1000000695.png",
       "media/1000000691.png",
@@ -22,86 +22,91 @@
   },
   "links": [
     {
-      "title": "同步器",
+      "title": "同步器下载",
       "url": "https://1854959834.share.123pan.cn/123pan/TZ1Wvd-QNNNA",
       "icon": "AndroidLogo"
+    },
+    {
+      "title": "开源仓库",
+      "url": "https://github.com/Gsjsjzhznsz/BandQQ",
+      "icon": "GithubLogo"
     }
   ],
   "downloads": {
     "xmb10": {
-      "version": "2.9.2",
-      "file_name": "downloads/bandqq-band-release-2.9.2.rpk",
-      "versionCode": 46
+      "version": "2.9.3",
+      "file_name": "downloads/bandqq-band-release-2.9.3.rpk",
+      "versionCode": 47
     },
     "xmb10nfc": {
-      "version": "2.9.2",
-      "file_name": "downloads/bandqq-band-release-2.9.2.rpk",
-      "versionCode": 46
+      "version": "2.9.3",
+      "file_name": "downloads/bandqq-band-release-2.9.3.rpk",
+      "versionCode": 47
     },
     "xmb11": {
-      "version": "2.9.2",
-      "file_name": "downloads/bandqq-band-release-2.9.2.rpk",
-      "versionCode": 46
+      "version": "2.9.3",
+      "file_name": "downloads/bandqq-band-release-2.9.3.rpk",
+      "versionCode": 47
     },
     "xmb11nfc": {
-      "version": "2.9.2",
-      "file_name": "downloads/bandqq-band-release-2.9.2.rpk",
-      "versionCode": 46
+      "version": "2.9.3",
+      "file_name": "downloads/bandqq-band-release-2.9.3.rpk",
+      "versionCode": 47
     },
     "xmb9": {
-      "version": "2.9.2",
-      "file_name": "downloads/bandqq-band-release-2.9.2.rpk",
-      "versionCode": 46
+      "version": "2.9.3",
+      "file_name": "downloads/bandqq-band-release-2.9.3.rpk",
+      "versionCode": 47
     },
     "xmrw5": {
-      "version": "2.11.0-rw",
-      "file_name": "downloads/bandqq-redmiwatch-release-2.11.0-rw.rpk",
-      "versionCode": 62
+      "version": "2.11.1-rw",
+      "file_name": "downloads/bandqq-redmiwatch-release-2.11.1-rw.rpk",
+      "versionCode": 63
     },
     "xmrw5xring": {
-      "version": "2.11.0-rw",
-      "file_name": "downloads/bandqq-redmiwatch-release-2.11.0-rw.rpk",
-      "versionCode": 62
+      "version": "2.11.1-rw",
+      "file_name": "downloads/bandqq-redmiwatch-release-2.11.1-rw.rpk",
+      "versionCode": 63
     },
     "xmrw6": {
-      "version": "2.11.0-rw",
-      "file_name": "downloads/bandqq-redmiwatch-release-2.11.0-rw.rpk",
-      "versionCode": 62
+      "version": "2.11.1-rw",
+      "file_name": "downloads/bandqq-redmiwatch-release-2.11.1-rw.rpk",
+      "versionCode": 63
     },
     "xmb10p": {
-      "version": "2.11.0-pro",
-      "file_name": "downloads/bandqq-bandpro-release-2.11.0-pro.rpk",
-      "versionCode": 95
+      "version": "2.11.2-pro",
+      "file_name": "downloads/bandqq-bandpro-release-2.11.2-pro.rpk",
+      "versionCode": 97
     },
     "xmb9p": {
-      "version": "2.11.0-pro",
-      "file_name": "downloads/bandqq-bandpro-release-2.11.0-pro.rpk",
-      "versionCode": 95
+      "version": "2.11.2-pro",
+      "file_name": "downloads/bandqq-bandpro-release-2.11.2-pro.rpk",
+      "versionCode": 97
     },
     "xmws3": {
-      "version": "2.11.0-s",
-      "file_name": "downloads/bandqq-xiaomiwatch-release-2.11.0-s.rpk",
-      "versionCode": 61
+      "version": "2.11.1-s",
+      "file_name": "downloads/bandqq-xiaomiwatch-release-2.11.1-s.rpk",
+      "versionCode": 62
     },
     "xmws4xring": {
-      "version": "2.11.0-s",
-      "file_name": "downloads/bandqq-xiaomiwatch-release-2.11.0-s.rpk",
-      "versionCode": 61
+      "version": "2.11.1-s",
+      "file_name": "downloads/bandqq-xiaomiwatch-release-2.11.1-s.rpk",
+      "versionCode": 62
     },
     "xmws441": {
-      "version": "2.11.0-s",
-      "file_name": "downloads/bandqq-xiaomiwatch-release-2.11.0-s.rpk",
-      "versionCode": 61
+      "version": "2.11.1-s",
+      "file_name": "downloads/bandqq-xiaomiwatch-release-2.11.1-s.rpk",
+      "versionCode": 62
     },
     "xmws4": {
-      "version": "2.11.0-s",
-      "file_name": "downloads/bandqq-xiaomiwatch-release-2.11.0-s.rpk",
-      "versionCode": 61
+      "version": "2.11.1-s",
+      "file_name": "downloads/bandqq-xiaomiwatch-release-2.11.1-s.rpk",
+      "versionCode": 62
     },
     "xmws5": {
-      "version": "2.11.0-s",
-      "file_name": "downloads/bandqq-xiaomiwatch-release-2.11.0-s.rpk",
-      "versionCode": 61
+      "version": "2.11.1-s",
+      "file_name": "downloads/bandqq-xiaomiwatch-release-2.11.1-s.rpk",
+      "versionCode": 62
     }
   },
   "ext": {}
