@@ -24,89 +24,190 @@
     {
       "title": "同步器下载",
       "url": "https://1854959834.share.123pan.cn/123pan/TZ1Wvd-QNNNA",
-      "icon": "AndroidLogo"
+      "icon": "android-logo"
     },
     {
       "title": "开源仓库",
       "url": "https://github.com/Gsjsjzhznsz/BandQQ",
-      "icon": "GithubLogo"
+      "icon": "github-logo"
     }
   ],
   "downloads": {
     "xmb10": {
-      "version": "2.9.3",
-      "file_name": "downloads/bandqq-band-release-2.9.3.rpk",
-      "versionCode": 47
+      "version": "2.28.2-band",
+      "file_name": "downloads/bandqq-band-2.28.2.rpk",
+      "versionCode": 73,
+      "updatelogs": [
+        {
+          "version": "2.28.2-band",
+          "content": "BandQQ v2.28.2 精简版\n从 v2.9.4 至今更新摘要\n\n· 手环端：四分支适配；NEORUAA 键盘、全量拼音、QWERTY+T9、中英日；eSIM 直连；历史分页、撤回、演示模式。\n· 手机端：bundled/companion 双包；AstrBot 标签页；同步服务自动重连、保活、拉起；新增签名诊断。\n· NapCat：安装、启动、配置、更新链修复；看门狗、自愈、版本钉扎 4.18.28；WebUI 更新自动采纳。\n· 反检测：默认开启环境伪装、发送限速/冷却/抖动；新号先预热，避免秒发、群发。\n· 打包：CI 自动出包 + SHA256；签名 v1/v2/v3；AGP/Gradle 升级。\n\n下载选择\n\n文件 用途\nbandqq-2.28.2-bundled.apk 手机推荐，80MB，内嵌引擎\nbandqq-2.28.2-companion.apk 手机瘦包，12MB，需 AstrBot Bubble\nbandqq-band-2.28.2.rpk 小米手环 8/9/10/11\nbandqq-bandpro-2.28.2.rpk 手环 8Pro/9Pro/10Pro\nbandqq-xiaomis-2.28.2.rpk Xiaomi Watch S3/S4/S5\nbandqq-redmiwatch-2.28.2.rpk REDMI Watch 5 / 5eSIM / 6\n\n使用步骤\n\n1. 下载并校验 SHA256。\n2. 安装 APK，给权限，加入电池优化白名单。\n3. 手环推对应 rpk；旧版先卸载再装，并重新授权。\n4. 打开 APP → 引擎 → 启动引擎；NapCat 扫码登录，OneBot 在线。\n5. 启动同步服务，运动健康授权，手环打开 BandQQ。\n6. 可选：开启 AstrBot 机器人。\n\n· 解析包出错：校验哈希，重新下载。\n· 手环未连接：看状态卡，若“签名不一致”按第 3 步重装手环端。\n· NapCat 更新失败：v2.28.1 已修，WebUI 更新后回 APP 重启引擎。\n· QQ 被封：新号预热，避免秒发、批量群发。\n· 看不懂日志：看启动进度条和实时日志，导出日志反馈。\n\n完整逐版日志见 README。"
+        }
+      ]
     },
     "xmb10nfc": {
-      "version": "2.9.3",
-      "file_name": "downloads/bandqq-band-release-2.9.3.rpk",
-      "versionCode": 47
+      "version": "2.28.2-band",
+      "file_name": "downloads/bandqq-band-2.28.2.rpk",
+      "versionCode": 73,
+      "updatelogs": [
+        {
+          "version": "2.28.2-band",
+          "content": "BandQQ v2.28.2 精简版\n从 v2.9.4 至今更新摘要\n\n· 手环端：四分支适配；NEORUAA 键盘、全量拼音、QWERTY+T9、中英日；eSIM 直连；历史分页、撤回、演示模式。\n· 手机端：bundled/companion 双包；AstrBot 标签页；同步服务自动重连、保活、拉起；新增签名诊断。\n· NapCat：安装、启动、配置、更新链修复；看门狗、自愈、版本钉扎 4.18.28；WebUI 更新自动采纳。\n· 反检测：默认开启环境伪装、发送限速/冷却/抖动；新号先预热，避免秒发、群发。\n· 打包：CI 自动出包 + SHA256；签名 v1/v2/v3；AGP/Gradle 升级。\n\n下载选择\n\n文件 用途\nbandqq-2.28.2-bundled.apk 手机推荐，80MB，内嵌引擎\nbandqq-2.28.2-companion.apk 手机瘦包，12MB，需 AstrBot Bubble\nbandqq-band-2.28.2.rpk 小米手环 8/9/10/11\nbandqq-bandpro-2.28.2.rpk 手环 8Pro/9Pro/10Pro\nbandqq-xiaomis-2.28.2.rpk Xiaomi Watch S3/S4/S5\nbandqq-redmiwatch-2.28.2.rpk REDMI Watch 5 / 5eSIM / 6\n\n使用步骤\n\n1. 下载并校验 SHA256。\n2. 安装 APK，给权限，加入电池优化白名单。\n3. 手环推对应 rpk；旧版先卸载再装，并重新授权。\n4. 打开 APP → 引擎 → 启动引擎；NapCat 扫码登录，OneBot 在线。\n5. 启动同步服务，运动健康授权，手环打开 BandQQ。\n6. 可选：开启 AstrBot 机器人。\n\n· 解析包出错：校验哈希，重新下载。\n· 手环未连接：看状态卡，若“签名不一致”按第 3 步重装手环端。\n· NapCat 更新失败：v2.28.1 已修，WebUI 更新后回 APP 重启引擎。\n· QQ 被封：新号预热，避免秒发、批量群发。\n· 看不懂日志：看启动进度条和实时日志，导出日志反馈。\n\n完整逐版日志见 README。"
+        }
+      ]
     },
     "xmb11": {
-      "version": "2.9.3",
-      "file_name": "downloads/bandqq-band-release-2.9.3.rpk",
-      "versionCode": 47
+      "version": "2.28.2-band",
+      "file_name": "downloads/bandqq-band-2.28.2.rpk",
+      "versionCode": 73,
+      "updatelogs": [
+        {
+          "version": "2.28.2-band",
+          "content": "BandQQ v2.28.2 精简版\n从 v2.9.4 至今更新摘要\n\n· 手环端：四分支适配；NEORUAA 键盘、全量拼音、QWERTY+T9、中英日；eSIM 直连；历史分页、撤回、演示模式。\n· 手机端：bundled/companion 双包；AstrBot 标签页；同步服务自动重连、保活、拉起；新增签名诊断。\n· NapCat：安装、启动、配置、更新链修复；看门狗、自愈、版本钉扎 4.18.28；WebUI 更新自动采纳。\n· 反检测：默认开启环境伪装、发送限速/冷却/抖动；新号先预热，避免秒发、群发。\n· 打包：CI 自动出包 + SHA256；签名 v1/v2/v3；AGP/Gradle 升级。\n\n下载选择\n\n文件 用途\nbandqq-2.28.2-bundled.apk 手机推荐，80MB，内嵌引擎\nbandqq-2.28.2-companion.apk 手机瘦包，12MB，需 AstrBot Bubble\nbandqq-band-2.28.2.rpk 小米手环 8/9/10/11\nbandqq-bandpro-2.28.2.rpk 手环 8Pro/9Pro/10Pro\nbandqq-xiaomis-2.28.2.rpk Xiaomi Watch S3/S4/S5\nbandqq-redmiwatch-2.28.2.rpk REDMI Watch 5 / 5eSIM / 6\n\n使用步骤\n\n1. 下载并校验 SHA256。\n2. 安装 APK，给权限，加入电池优化白名单。\n3. 手环推对应 rpk；旧版先卸载再装，并重新授权。\n4. 打开 APP → 引擎 → 启动引擎；NapCat 扫码登录，OneBot 在线。\n5. 启动同步服务，运动健康授权，手环打开 BandQQ。\n6. 可选：开启 AstrBot 机器人。\n\n· 解析包出错：校验哈希，重新下载。\n· 手环未连接：看状态卡，若“签名不一致”按第 3 步重装手环端。\n· NapCat 更新失败：v2.28.1 已修，WebUI 更新后回 APP 重启引擎。\n· QQ 被封：新号预热，避免秒发、批量群发。\n· 看不懂日志：看启动进度条和实时日志，导出日志反馈。\n\n完整逐版日志见 README。"
+        }
+      ]
     },
     "xmb11nfc": {
-      "version": "2.9.3",
-      "file_name": "downloads/bandqq-band-release-2.9.3.rpk",
-      "versionCode": 47
+      "version": "2.28.2-band",
+      "file_name": "downloads/bandqq-band-2.28.2.rpk",
+      "versionCode": 73,
+      "updatelogs": [
+        {
+          "version": "2.28.2-band",
+          "content": "BandQQ v2.28.2 精简版\n从 v2.9.4 至今更新摘要\n\n· 手环端：四分支适配；NEORUAA 键盘、全量拼音、QWERTY+T9、中英日；eSIM 直连；历史分页、撤回、演示模式。\n· 手机端：bundled/companion 双包；AstrBot 标签页；同步服务自动重连、保活、拉起；新增签名诊断。\n· NapCat：安装、启动、配置、更新链修复；看门狗、自愈、版本钉扎 4.18.28；WebUI 更新自动采纳。\n· 反检测：默认开启环境伪装、发送限速/冷却/抖动；新号先预热，避免秒发、群发。\n· 打包：CI 自动出包 + SHA256；签名 v1/v2/v3；AGP/Gradle 升级。\n\n下载选择\n\n文件 用途\nbandqq-2.28.2-bundled.apk 手机推荐，80MB，内嵌引擎\nbandqq-2.28.2-companion.apk 手机瘦包，12MB，需 AstrBot Bubble\nbandqq-band-2.28.2.rpk 小米手环 8/9/10/11\nbandqq-bandpro-2.28.2.rpk 手环 8Pro/9Pro/10Pro\nbandqq-xiaomis-2.28.2.rpk Xiaomi Watch S3/S4/S5\nbandqq-redmiwatch-2.28.2.rpk REDMI Watch 5 / 5eSIM / 6\n\n使用步骤\n\n1. 下载并校验 SHA256。\n2. 安装 APK，给权限，加入电池优化白名单。\n3. 手环推对应 rpk；旧版先卸载再装，并重新授权。\n4. 打开 APP → 引擎 → 启动引擎；NapCat 扫码登录，OneBot 在线。\n5. 启动同步服务，运动健康授权，手环打开 BandQQ。\n6. 可选：开启 AstrBot 机器人。\n\n· 解析包出错：校验哈希，重新下载。\n· 手环未连接：看状态卡，若“签名不一致”按第 3 步重装手环端。\n· NapCat 更新失败：v2.28.1 已修，WebUI 更新后回 APP 重启引擎。\n· QQ 被封：新号预热，避免秒发、批量群发。\n· 看不懂日志：看启动进度条和实时日志，导出日志反馈。\n\n完整逐版日志见 README。"
+        }
+      ]
     },
     "xmb9": {
-      "version": "2.9.3",
-      "file_name": "downloads/bandqq-band-release-2.9.3.rpk",
-      "versionCode": 47
+      "version": "2.28.2-band",
+      "file_name": "downloads/bandqq-band-2.28.2.rpk",
+      "versionCode": 73,
+      "updatelogs": [
+        {
+          "version": "2.28.2-band",
+          "content": "BandQQ v2.28.2 精简版\n从 v2.9.4 至今更新摘要\n\n· 手环端：四分支适配；NEORUAA 键盘、全量拼音、QWERTY+T9、中英日；eSIM 直连；历史分页、撤回、演示模式。\n· 手机端：bundled/companion 双包；AstrBot 标签页；同步服务自动重连、保活、拉起；新增签名诊断。\n· NapCat：安装、启动、配置、更新链修复；看门狗、自愈、版本钉扎 4.18.28；WebUI 更新自动采纳。\n· 反检测：默认开启环境伪装、发送限速/冷却/抖动；新号先预热，避免秒发、群发。\n· 打包：CI 自动出包 + SHA256；签名 v1/v2/v3；AGP/Gradle 升级。\n\n下载选择\n\n文件 用途\nbandqq-2.28.2-bundled.apk 手机推荐，80MB，内嵌引擎\nbandqq-2.28.2-companion.apk 手机瘦包，12MB，需 AstrBot Bubble\nbandqq-band-2.28.2.rpk 小米手环 8/9/10/11\nbandqq-bandpro-2.28.2.rpk 手环 8Pro/9Pro/10Pro\nbandqq-xiaomis-2.28.2.rpk Xiaomi Watch S3/S4/S5\nbandqq-redmiwatch-2.28.2.rpk REDMI Watch 5 / 5eSIM / 6\n\n使用步骤\n\n1. 下载并校验 SHA256。\n2. 安装 APK，给权限，加入电池优化白名单。\n3. 手环推对应 rpk；旧版先卸载再装，并重新授权。\n4. 打开 APP → 引擎 → 启动引擎；NapCat 扫码登录，OneBot 在线。\n5. 启动同步服务，运动健康授权，手环打开 BandQQ。\n6. 可选：开启 AstrBot 机器人。\n\n· 解析包出错：校验哈希，重新下载。\n· 手环未连接：看状态卡，若“签名不一致”按第 3 步重装手环端。\n· NapCat 更新失败：v2.28.1 已修，WebUI 更新后回 APP 重启引擎。\n· QQ 被封：新号预热，避免秒发、批量群发。\n· 看不懂日志：看启动进度条和实时日志，导出日志反馈。\n\n完整逐版日志见 README。"
+        }
+      ]
     },
     "xmrw5": {
-      "version": "2.11.1-rw",
-      "file_name": "downloads/bandqq-redmiwatch-release-2.11.1-rw.rpk",
-      "versionCode": 63
+      "version": "2.28.2-redmiwatch",
+      "file_name": "downloads/bandqq-redmiwatch-2.28.2.rpk",
+      "versionCode": 73,
+      "updatelogs": [
+        {
+          "version": "2.28.2-band",
+          "content": "BandQQ v2.28.2 精简版\n从 v2.9.4 至今更新摘要\n\n· 手环端：四分支适配；NEORUAA 键盘、全量拼音、QWERTY+T9、中英日；eSIM 直连；历史分页、撤回、演示模式。\n· 手机端：bundled/companion 双包；AstrBot 标签页；同步服务自动重连、保活、拉起；新增签名诊断。\n· NapCat：安装、启动、配置、更新链修复；看门狗、自愈、版本钉扎 4.18.28；WebUI 更新自动采纳。\n· 反检测：默认开启环境伪装、发送限速/冷却/抖动；新号先预热，避免秒发、群发。\n· 打包：CI 自动出包 + SHA256；签名 v1/v2/v3；AGP/Gradle 升级。\n\n下载选择\n\n文件 用途\nbandqq-2.28.2-bundled.apk 手机推荐，80MB，内嵌引擎\nbandqq-2.28.2-companion.apk 手机瘦包，12MB，需 AstrBot Bubble\nbandqq-band-2.28.2.rpk 小米手环 8/9/10/11\nbandqq-bandpro-2.28.2.rpk 手环 8Pro/9Pro/10Pro\nbandqq-xiaomis-2.28.2.rpk Xiaomi Watch S3/S4/S5\nbandqq-redmiwatch-2.28.2.rpk REDMI Watch 5 / 5eSIM / 6\n\n使用步骤\n\n1. 下载并校验 SHA256。\n2. 安装 APK，给权限，加入电池优化白名单。\n3. 手环推对应 rpk；旧版先卸载再装，并重新授权。\n4. 打开 APP → 引擎 → 启动引擎；NapCat 扫码登录，OneBot 在线。\n5. 启动同步服务，运动健康授权，手环打开 BandQQ。\n6. 可选：开启 AstrBot 机器人。\n\n· 解析包出错：校验哈希，重新下载。\n· 手环未连接：看状态卡，若“签名不一致”按第 3 步重装手环端。\n· NapCat 更新失败：v2.28.1 已修，WebUI 更新后回 APP 重启引擎。\n· QQ 被封：新号预热，避免秒发、批量群发。\n· 看不懂日志：看启动进度条和实时日志，导出日志反馈。\n\n完整逐版日志见 README。"
+        }
+      ]
     },
     "xmrw5xring": {
-      "version": "2.11.1-rw",
-      "file_name": "downloads/bandqq-redmiwatch-release-2.11.1-rw.rpk",
-      "versionCode": 63
+      "version": "2.28.2-redmiwatch",
+      "file_name": "downloads/bandqq-redmiwatch-2.28.2.rpk",
+      "versionCode": 73,
+      "updatelogs": [
+        {
+          "version": "2.28.2-band",
+          "content": "BandQQ v2.28.2 精简版\n从 v2.9.4 至今更新摘要\n\n· 手环端：四分支适配；NEORUAA 键盘、全量拼音、QWERTY+T9、中英日；eSIM 直连；历史分页、撤回、演示模式。\n· 手机端：bundled/companion 双包；AstrBot 标签页；同步服务自动重连、保活、拉起；新增签名诊断。\n· NapCat：安装、启动、配置、更新链修复；看门狗、自愈、版本钉扎 4.18.28；WebUI 更新自动采纳。\n· 反检测：默认开启环境伪装、发送限速/冷却/抖动；新号先预热，避免秒发、群发。\n· 打包：CI 自动出包 + SHA256；签名 v1/v2/v3；AGP/Gradle 升级。\n\n下载选择\n\n文件 用途\nbandqq-2.28.2-bundled.apk 手机推荐，80MB，内嵌引擎\nbandqq-2.28.2-companion.apk 手机瘦包，12MB，需 AstrBot Bubble\nbandqq-band-2.28.2.rpk 小米手环 8/9/10/11\nbandqq-bandpro-2.28.2.rpk 手环 8Pro/9Pro/10Pro\nbandqq-xiaomis-2.28.2.rpk Xiaomi Watch S3/S4/S5\nbandqq-redmiwatch-2.28.2.rpk REDMI Watch 5 / 5eSIM / 6\n\n使用步骤\n\n1. 下载并校验 SHA256。\n2. 安装 APK，给权限，加入电池优化白名单。\n3. 手环推对应 rpk；旧版先卸载再装，并重新授权。\n4. 打开 APP → 引擎 → 启动引擎；NapCat 扫码登录，OneBot 在线。\n5. 启动同步服务，运动健康授权，手环打开 BandQQ。\n6. 可选：开启 AstrBot 机器人。\n\n· 解析包出错：校验哈希，重新下载。\n· 手环未连接：看状态卡，若“签名不一致”按第 3 步重装手环端。\n· NapCat 更新失败：v2.28.1 已修，WebUI 更新后回 APP 重启引擎。\n· QQ 被封：新号预热，避免秒发、批量群发。\n· 看不懂日志：看启动进度条和实时日志，导出日志反馈。\n\n完整逐版日志见 README。"
+        }
+      ]
     },
     "xmrw6": {
-      "version": "2.11.1-rw",
-      "file_name": "downloads/bandqq-redmiwatch-release-2.11.1-rw.rpk",
-      "versionCode": 63
-    },
-    "xmb10p": {
-      "version": "2.11.2-pro",
-      "file_name": "downloads/bandqq-bandpro-release-2.11.2-pro.rpk",
-      "versionCode": 97
-    },
-    "xmb9p": {
-      "version": "2.11.2-pro",
-      "file_name": "downloads/bandqq-bandpro-release-2.11.2-pro.rpk",
-      "versionCode": 97
+      "version": "2.28.2-redmiwatch",
+      "file_name": "downloads/bandqq-redmiwatch-2.28.2.rpk",
+      "versionCode": 73,
+      "updatelogs": [
+        {
+          "version": "2.28.2-band",
+          "content": "BandQQ v2.28.2 精简版\n从 v2.9.4 至今更新摘要\n\n· 手环端：四分支适配；NEORUAA 键盘、全量拼音、QWERTY+T9、中英日；eSIM 直连；历史分页、撤回、演示模式。\n· 手机端：bundled/companion 双包；AstrBot 标签页；同步服务自动重连、保活、拉起；新增签名诊断。\n· NapCat：安装、启动、配置、更新链修复；看门狗、自愈、版本钉扎 4.18.28；WebUI 更新自动采纳。\n· 反检测：默认开启环境伪装、发送限速/冷却/抖动；新号先预热，避免秒发、群发。\n· 打包：CI 自动出包 + SHA256；签名 v1/v2/v3；AGP/Gradle 升级。\n\n下载选择\n\n文件 用途\nbandqq-2.28.2-bundled.apk 手机推荐，80MB，内嵌引擎\nbandqq-2.28.2-companion.apk 手机瘦包，12MB，需 AstrBot Bubble\nbandqq-band-2.28.2.rpk 小米手环 8/9/10/11\nbandqq-bandpro-2.28.2.rpk 手环 8Pro/9Pro/10Pro\nbandqq-xiaomis-2.28.2.rpk Xiaomi Watch S3/S4/S5\nbandqq-redmiwatch-2.28.2.rpk REDMI Watch 5 / 5eSIM / 6\n\n使用步骤\n\n1. 下载并校验 SHA256。\n2. 安装 APK，给权限，加入电池优化白名单。\n3. 手环推对应 rpk；旧版先卸载再装，并重新授权。\n4. 打开 APP → 引擎 → 启动引擎；NapCat 扫码登录，OneBot 在线。\n5. 启动同步服务，运动健康授权，手环打开 BandQQ。\n6. 可选：开启 AstrBot 机器人。\n\n· 解析包出错：校验哈希，重新下载。\n· 手环未连接：看状态卡，若“签名不一致”按第 3 步重装手环端。\n· NapCat 更新失败：v2.28.1 已修，WebUI 更新后回 APP 重启引擎。\n· QQ 被封：新号预热，避免秒发、批量群发。\n· 看不懂日志：看启动进度条和实时日志，导出日志反馈。\n\n完整逐版日志见 README。"
+        }
+      ]
     },
     "xmws3": {
-      "version": "2.11.1-s",
-      "file_name": "downloads/bandqq-xiaomiwatch-release-2.11.1-s.rpk",
-      "versionCode": 62
+      "version": "2.28.2-xiaomis",
+      "file_name": "downloads/bandqq-xiaomis-2.28.2.rpk",
+      "versionCode": 73,
+      "updatelogs": [
+        {
+          "version": "2.28.2-band",
+          "content": "BandQQ v2.28.2 精简版\n从 v2.9.4 至今更新摘要\n\n· 手环端：四分支适配；NEORUAA 键盘、全量拼音、QWERTY+T9、中英日；eSIM 直连；历史分页、撤回、演示模式。\n· 手机端：bundled/companion 双包；AstrBot 标签页；同步服务自动重连、保活、拉起；新增签名诊断。\n· NapCat：安装、启动、配置、更新链修复；看门狗、自愈、版本钉扎 4.18.28；WebUI 更新自动采纳。\n· 反检测：默认开启环境伪装、发送限速/冷却/抖动；新号先预热，避免秒发、群发。\n· 打包：CI 自动出包 + SHA256；签名 v1/v2/v3；AGP/Gradle 升级。\n\n下载选择\n\n文件 用途\nbandqq-2.28.2-bundled.apk 手机推荐，80MB，内嵌引擎\nbandqq-2.28.2-companion.apk 手机瘦包，12MB，需 AstrBot Bubble\nbandqq-band-2.28.2.rpk 小米手环 8/9/10/11\nbandqq-bandpro-2.28.2.rpk 手环 8Pro/9Pro/10Pro\nbandqq-xiaomis-2.28.2.rpk Xiaomi Watch S3/S4/S5\nbandqq-redmiwatch-2.28.2.rpk REDMI Watch 5 / 5eSIM / 6\n\n使用步骤\n\n1. 下载并校验 SHA256。\n2. 安装 APK，给权限，加入电池优化白名单。\n3. 手环推对应 rpk；旧版先卸载再装，并重新授权。\n4. 打开 APP → 引擎 → 启动引擎；NapCat 扫码登录，OneBot 在线。\n5. 启动同步服务，运动健康授权，手环打开 BandQQ。\n6. 可选：开启 AstrBot 机器人。\n\n· 解析包出错：校验哈希，重新下载。\n· 手环未连接：看状态卡，若“签名不一致”按第 3 步重装手环端。\n· NapCat 更新失败：v2.28.1 已修，WebUI 更新后回 APP 重启引擎。\n· QQ 被封：新号预热，避免秒发、批量群发。\n· 看不懂日志：看启动进度条和实时日志，导出日志反馈。\n\n完整逐版日志见 README。"
+        }
+      ]
     },
     "xmws4xring": {
-      "version": "2.11.1-s",
-      "file_name": "downloads/bandqq-xiaomiwatch-release-2.11.1-s.rpk",
-      "versionCode": 62
+      "version": "2.28.2-xiaomis",
+      "file_name": "downloads/bandqq-xiaomis-2.28.2.rpk",
+      "versionCode": 73,
+      "updatelogs": [
+        {
+          "version": "2.28.2-band",
+          "content": "BandQQ v2.28.2 精简版\n从 v2.9.4 至今更新摘要\n\n· 手环端：四分支适配；NEORUAA 键盘、全量拼音、QWERTY+T9、中英日；eSIM 直连；历史分页、撤回、演示模式。\n· 手机端：bundled/companion 双包；AstrBot 标签页；同步服务自动重连、保活、拉起；新增签名诊断。\n· NapCat：安装、启动、配置、更新链修复；看门狗、自愈、版本钉扎 4.18.28；WebUI 更新自动采纳。\n· 反检测：默认开启环境伪装、发送限速/冷却/抖动；新号先预热，避免秒发、群发。\n· 打包：CI 自动出包 + SHA256；签名 v1/v2/v3；AGP/Gradle 升级。\n\n下载选择\n\n文件 用途\nbandqq-2.28.2-bundled.apk 手机推荐，80MB，内嵌引擎\nbandqq-2.28.2-companion.apk 手机瘦包，12MB，需 AstrBot Bubble\nbandqq-band-2.28.2.rpk 小米手环 8/9/10/11\nbandqq-bandpro-2.28.2.rpk 手环 8Pro/9Pro/10Pro\nbandqq-xiaomis-2.28.2.rpk Xiaomi Watch S3/S4/S5\nbandqq-redmiwatch-2.28.2.rpk REDMI Watch 5 / 5eSIM / 6\n\n使用步骤\n\n1. 下载并校验 SHA256。\n2. 安装 APK，给权限，加入电池优化白名单。\n3. 手环推对应 rpk；旧版先卸载再装，并重新授权。\n4. 打开 APP → 引擎 → 启动引擎；NapCat 扫码登录，OneBot 在线。\n5. 启动同步服务，运动健康授权，手环打开 BandQQ。\n6. 可选：开启 AstrBot 机器人。\n\n· 解析包出错：校验哈希，重新下载。\n· 手环未连接：看状态卡，若“签名不一致”按第 3 步重装手环端。\n· NapCat 更新失败：v2.28.1 已修，WebUI 更新后回 APP 重启引擎。\n· QQ 被封：新号预热，避免秒发、批量群发。\n· 看不懂日志：看启动进度条和实时日志，导出日志反馈。\n\n完整逐版日志见 README。"
+        }
+      ]
     },
     "xmws441": {
-      "version": "2.11.1-s",
-      "file_name": "downloads/bandqq-xiaomiwatch-release-2.11.1-s.rpk",
-      "versionCode": 62
+      "version": "2.28.2-xiaomis",
+      "file_name": "downloads/bandqq-xiaomis-2.28.2.rpk",
+      "versionCode": 73,
+      "updatelogs": [
+        {
+          "version": "2.28.2-band",
+          "content": "BandQQ v2.28.2 精简版\n从 v2.9.4 至今更新摘要\n\n· 手环端：四分支适配；NEORUAA 键盘、全量拼音、QWERTY+T9、中英日；eSIM 直连；历史分页、撤回、演示模式。\n· 手机端：bundled/companion 双包；AstrBot 标签页；同步服务自动重连、保活、拉起；新增签名诊断。\n· NapCat：安装、启动、配置、更新链修复；看门狗、自愈、版本钉扎 4.18.28；WebUI 更新自动采纳。\n· 反检测：默认开启环境伪装、发送限速/冷却/抖动；新号先预热，避免秒发、群发。\n· 打包：CI 自动出包 + SHA256；签名 v1/v2/v3；AGP/Gradle 升级。\n\n下载选择\n\n文件 用途\nbandqq-2.28.2-bundled.apk 手机推荐，80MB，内嵌引擎\nbandqq-2.28.2-companion.apk 手机瘦包，12MB，需 AstrBot Bubble\nbandqq-band-2.28.2.rpk 小米手环 8/9/10/11\nbandqq-bandpro-2.28.2.rpk 手环 8Pro/9Pro/10Pro\nbandqq-xiaomis-2.28.2.rpk Xiaomi Watch S3/S4/S5\nbandqq-redmiwatch-2.28.2.rpk REDMI Watch 5 / 5eSIM / 6\n\n使用步骤\n\n1. 下载并校验 SHA256。\n2. 安装 APK，给权限，加入电池优化白名单。\n3. 手环推对应 rpk；旧版先卸载再装，并重新授权。\n4. 打开 APP → 引擎 → 启动引擎；NapCat 扫码登录，OneBot 在线。\n5. 启动同步服务，运动健康授权，手环打开 BandQQ。\n6. 可选：开启 AstrBot 机器人。\n\n· 解析包出错：校验哈希，重新下载。\n· 手环未连接：看状态卡，若“签名不一致”按第 3 步重装手环端。\n· NapCat 更新失败：v2.28.1 已修，WebUI 更新后回 APP 重启引擎。\n· QQ 被封：新号预热，避免秒发、批量群发。\n· 看不懂日志：看启动进度条和实时日志，导出日志反馈。\n\n完整逐版日志见 README。"
+        }
+      ]
     },
     "xmws4": {
-      "version": "2.11.1-s",
-      "file_name": "downloads/bandqq-xiaomiwatch-release-2.11.1-s.rpk",
-      "versionCode": 62
+      "version": "2.28.2-xiaomis",
+      "file_name": "downloads/bandqq-xiaomis-2.28.2.rpk",
+      "versionCode": 73,
+      "updatelogs": [
+        {
+          "version": "2.28.2-band",
+          "content": "BandQQ v2.28.2 精简版\n从 v2.9.4 至今更新摘要\n\n· 手环端：四分支适配；NEORUAA 键盘、全量拼音、QWERTY+T9、中英日；eSIM 直连；历史分页、撤回、演示模式。\n· 手机端：bundled/companion 双包；AstrBot 标签页；同步服务自动重连、保活、拉起；新增签名诊断。\n· NapCat：安装、启动、配置、更新链修复；看门狗、自愈、版本钉扎 4.18.28；WebUI 更新自动采纳。\n· 反检测：默认开启环境伪装、发送限速/冷却/抖动；新号先预热，避免秒发、群发。\n· 打包：CI 自动出包 + SHA256；签名 v1/v2/v3；AGP/Gradle 升级。\n\n下载选择\n\n文件 用途\nbandqq-2.28.2-bundled.apk 手机推荐，80MB，内嵌引擎\nbandqq-2.28.2-companion.apk 手机瘦包，12MB，需 AstrBot Bubble\nbandqq-band-2.28.2.rpk 小米手环 8/9/10/11\nbandqq-bandpro-2.28.2.rpk 手环 8Pro/9Pro/10Pro\nbandqq-xiaomis-2.28.2.rpk Xiaomi Watch S3/S4/S5\nbandqq-redmiwatch-2.28.2.rpk REDMI Watch 5 / 5eSIM / 6\n\n使用步骤\n\n1. 下载并校验 SHA256。\n2. 安装 APK，给权限，加入电池优化白名单。\n3. 手环推对应 rpk；旧版先卸载再装，并重新授权。\n4. 打开 APP → 引擎 → 启动引擎；NapCat 扫码登录，OneBot 在线。\n5. 启动同步服务，运动健康授权，手环打开 BandQQ。\n6. 可选：开启 AstrBot 机器人。\n\n· 解析包出错：校验哈希，重新下载。\n· 手环未连接：看状态卡，若“签名不一致”按第 3 步重装手环端。\n· NapCat 更新失败：v2.28.1 已修，WebUI 更新后回 APP 重启引擎。\n· QQ 被封：新号预热，避免秒发、批量群发。\n· 看不懂日志：看启动进度条和实时日志，导出日志反馈。\n\n完整逐版日志见 README。"
+        }
+      ]
     },
     "xmws5": {
-      "version": "2.11.1-s",
-      "file_name": "downloads/bandqq-xiaomiwatch-release-2.11.1-s.rpk",
-      "versionCode": 62
+      "version": "2.28.2-xiaomis",
+      "file_name": "downloads/bandqq-xiaomis-2.28.2.rpk",
+      "versionCode": 73,
+      "updatelogs": [
+        {
+          "version": "2.28.2-band",
+          "content": "BandQQ v2.28.2 精简版\n从 v2.9.4 至今更新摘要\n\n· 手环端：四分支适配；NEORUAA 键盘、全量拼音、QWERTY+T9、中英日；eSIM 直连；历史分页、撤回、演示模式。\n· 手机端：bundled/companion 双包；AstrBot 标签页；同步服务自动重连、保活、拉起；新增签名诊断。\n· NapCat：安装、启动、配置、更新链修复；看门狗、自愈、版本钉扎 4.18.28；WebUI 更新自动采纳。\n· 反检测：默认开启环境伪装、发送限速/冷却/抖动；新号先预热，避免秒发、群发。\n· 打包：CI 自动出包 + SHA256；签名 v1/v2/v3；AGP/Gradle 升级。\n\n下载选择\n\n文件 用途\nbandqq-2.28.2-bundled.apk 手机推荐，80MB，内嵌引擎\nbandqq-2.28.2-companion.apk 手机瘦包，12MB，需 AstrBot Bubble\nbandqq-band-2.28.2.rpk 小米手环 8/9/10/11\nbandqq-bandpro-2.28.2.rpk 手环 8Pro/9Pro/10Pro\nbandqq-xiaomis-2.28.2.rpk Xiaomi Watch S3/S4/S5\nbandqq-redmiwatch-2.28.2.rpk REDMI Watch 5 / 5eSIM / 6\n\n使用步骤\n\n1. 下载并校验 SHA256。\n2. 安装 APK，给权限，加入电池优化白名单。\n3. 手环推对应 rpk；旧版先卸载再装，并重新授权。\n4. 打开 APP → 引擎 → 启动引擎；NapCat 扫码登录，OneBot 在线。\n5. 启动同步服务，运动健康授权，手环打开 BandQQ。\n6. 可选：开启 AstrBot 机器人。\n\n· 解析包出错：校验哈希，重新下载。\n· 手环未连接：看状态卡，若“签名不一致”按第 3 步重装手环端。\n· NapCat 更新失败：v2.28.1 已修，WebUI 更新后回 APP 重启引擎。\n· QQ 被封：新号预热，避免秒发、批量群发。\n· 看不懂日志：看启动进度条和实时日志，导出日志反馈。\n\n完整逐版日志见 README。"
+        }
+      ]
+    },
+    "xmb10p": {
+      "version": "2.28.2-bandpro",
+      "file_name": "downloads/bandqq-bandpro-2.28.2.rpk",
+      "versionCode": 73,
+      "updatelogs": [
+        {
+          "version": "2.28.2-band",
+          "content": "BandQQ v2.28.2 精简版\n从 v2.9.4 至今更新摘要\n\n· 手环端：四分支适配；NEORUAA 键盘、全量拼音、QWERTY+T9、中英日；eSIM 直连；历史分页、撤回、演示模式。\n· 手机端：bundled/companion 双包；AstrBot 标签页；同步服务自动重连、保活、拉起；新增签名诊断。\n· NapCat：安装、启动、配置、更新链修复；看门狗、自愈、版本钉扎 4.18.28；WebUI 更新自动采纳。\n· 反检测：默认开启环境伪装、发送限速/冷却/抖动；新号先预热，避免秒发、群发。\n· 打包：CI 自动出包 + SHA256；签名 v1/v2/v3；AGP/Gradle 升级。\n\n下载选择\n\n文件 用途\nbandqq-2.28.2-bundled.apk 手机推荐，80MB，内嵌引擎\nbandqq-2.28.2-companion.apk 手机瘦包，12MB，需 AstrBot Bubble\nbandqq-band-2.28.2.rpk 小米手环 8/9/10/11\nbandqq-bandpro-2.28.2.rpk 手环 8Pro/9Pro/10Pro\nbandqq-xiaomis-2.28.2.rpk Xiaomi Watch S3/S4/S5\nbandqq-redmiwatch-2.28.2.rpk REDMI Watch 5 / 5eSIM / 6\n\n使用步骤\n\n1. 下载并校验 SHA256。\n2. 安装 APK，给权限，加入电池优化白名单。\n3. 手环推对应 rpk；旧版先卸载再装，并重新授权。\n4. 打开 APP → 引擎 → 启动引擎；NapCat 扫码登录，OneBot 在线。\n5. 启动同步服务，运动健康授权，手环打开 BandQQ。\n6. 可选：开启 AstrBot 机器人。\n\n· 解析包出错：校验哈希，重新下载。\n· 手环未连接：看状态卡，若“签名不一致”按第 3 步重装手环端。\n· NapCat 更新失败：v2.28.1 已修，WebUI 更新后回 APP 重启引擎。\n· QQ 被封：新号预热，避免秒发、批量群发。\n· 看不懂日志：看启动进度条和实时日志，导出日志反馈。\n\n完整逐版日志见 README。"
+        }
+      ]
+    },
+    "xmb9p": {
+      "version": "2.28.2-bandpro",
+      "file_name": "downloads/bandqq-bandpro-2.28.2.rpk",
+      "versionCode": 73,
+      "updatelogs": [
+        {
+          "version": "2.28.2-band",
+          "content": "BandQQ v2.28.2 精简版\n从 v2.9.4 至今更新摘要\n\n· 手环端：四分支适配；NEORUAA 键盘、全量拼音、QWERTY+T9、中英日；eSIM 直连；历史分页、撤回、演示模式。\n· 手机端：bundled/companion 双包；AstrBot 标签页；同步服务自动重连、保活、拉起；新增签名诊断。\n· NapCat：安装、启动、配置、更新链修复；看门狗、自愈、版本钉扎 4.18.28；WebUI 更新自动采纳。\n· 反检测：默认开启环境伪装、发送限速/冷却/抖动；新号先预热，避免秒发、群发。\n· 打包：CI 自动出包 + SHA256；签名 v1/v2/v3；AGP/Gradle 升级。\n\n下载选择\n\n文件 用途\nbandqq-2.28.2-bundled.apk 手机推荐，80MB，内嵌引擎\nbandqq-2.28.2-companion.apk 手机瘦包，12MB，需 AstrBot Bubble\nbandqq-band-2.28.2.rpk 小米手环 8/9/10/11\nbandqq-bandpro-2.28.2.rpk 手环 8Pro/9Pro/10Pro\nbandqq-xiaomis-2.28.2.rpk Xiaomi Watch S3/S4/S5\nbandqq-redmiwatch-2.28.2.rpk REDMI Watch 5 / 5eSIM / 6\n\n使用步骤\n\n1. 下载并校验 SHA256。\n2. 安装 APK，给权限，加入电池优化白名单。\n3. 手环推对应 rpk；旧版先卸载再装，并重新授权。\n4. 打开 APP → 引擎 → 启动引擎；NapCat 扫码登录，OneBot 在线。\n5. 启动同步服务，运动健康授权，手环打开 BandQQ。\n6. 可选：开启 AstrBot 机器人。\n\n· 解析包出错：校验哈希，重新下载。\n· 手环未连接：看状态卡，若“签名不一致”按第 3 步重装手环端。\n· NapCat 更新失败：v2.28.1 已修，WebUI 更新后回 APP 重启引擎。\n· QQ 被封：新号预热，避免秒发、批量群发。\n· 看不懂日志：看启动进度条和实时日志，导出日志反馈。\n\n完整逐版日志见 README。"
+        }
+      ]
+    },
+    "xmws541": {
+      "version": "2.28.2-xiaomis",
+      "file_name": "downloads/bandqq-xiaomis-2.28.2.rpk",
+      "versionCode": 73,
+      "updatelogs": [
+        {
+          "version": "2.28.2-band",
+          "content": "BandQQ v2.28.2 精简版\n从 v2.9.4 至今更新摘要\n\n· 手环端：四分支适配；NEORUAA 键盘、全量拼音、QWERTY+T9、中英日；eSIM 直连；历史分页、撤回、演示模式。\n· 手机端：bundled/companion 双包；AstrBot 标签页；同步服务自动重连、保活、拉起；新增签名诊断。\n· NapCat：安装、启动、配置、更新链修复；看门狗、自愈、版本钉扎 4.18.28；WebUI 更新自动采纳。\n· 反检测：默认开启环境伪装、发送限速/冷却/抖动；新号先预热，避免秒发、群发。\n· 打包：CI 自动出包 + SHA256；签名 v1/v2/v3；AGP/Gradle 升级。\n\n下载选择\n\n文件 用途\nbandqq-2.28.2-bundled.apk 手机推荐，80MB，内嵌引擎\nbandqq-2.28.2-companion.apk 手机瘦包，12MB，需 AstrBot Bubble\nbandqq-band-2.28.2.rpk 小米手环 8/9/10/11\nbandqq-bandpro-2.28.2.rpk 手环 8Pro/9Pro/10Pro\nbandqq-xiaomis-2.28.2.rpk Xiaomi Watch S3/S4/S5\nbandqq-redmiwatch-2.28.2.rpk REDMI Watch 5 / 5eSIM / 6\n\n使用步骤\n\n1. 下载并校验 SHA256。\n2. 安装 APK，给权限，加入电池优化白名单。\n3. 手环推对应 rpk；旧版先卸载再装，并重新授权。\n4. 打开 APP → 引擎 → 启动引擎；NapCat 扫码登录，OneBot 在线。\n5. 启动同步服务，运动健康授权，手环打开 BandQQ。\n6. 可选：开启 AstrBot 机器人。\n\n· 解析包出错：校验哈希，重新下载。\n· 手环未连接：看状态卡，若“签名不一致”按第 3 步重装手环端。\n· NapCat 更新失败：v2.28.1 已修，WebUI 更新后回 APP 重启引擎。\n· QQ 被封：新号预热，避免秒发、批量群发。\n· 看不懂日志：看启动进度条和实时日志，导出日志反馈。\n\n完整逐版日志见 README。"
+        }
+      ]
     }
   },
   "ext": {}
